@@ -208,6 +208,7 @@ Initial release
 
 # License
 
+Copyright © 2014 Adam Draper
 Copyright © 2015 Företagsplatsen AB
 
 Distributed under the MIT license. If you want to know more, see the `LICENSE` file.
