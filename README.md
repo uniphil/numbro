@@ -1,19 +1,19 @@
-# [Numeral.js](http://numeraljs.com/)
+# [numbro](https://numbro-js.com/)
 
 A javascript library for formatting and manipulating numbers.
 
-[Website and documentation](http://foretagsplatsen.github.io/Numeral-js)
+[Website and documentation](http://foretagsplatsen.github.io/numbro)
 
 
 # Travis Build Status
 
-Master [![Build Status](https://api.travis-ci.org/foretagsplatsen/Numeral-js.png)](https://travis-ci.org/foretagsplatsen/Numeral-js)
+Master [![Build Status](https://api.travis-ci.org/foretagsplatsen/numbro.png)](https://travis-ci.org/foretagsplatsen/numbro)
 
-Develop [![Build Status](https://travis-ci.org/foretagsplatsen/Numeral-js.png?branch=develop)](https://travis-ci.org/foretagsplatsen/Numeral-js)
+Develop [![Build Status](https://travis-ci.org/foretagsplatsen/numbro.png?branch=develop)](https://travis-ci.org/foretagsplatsen/numbro)
 
 # NPM
 
-[![NPM](https://nodei.co/npm/numeral.png?downloads=true)](https://nodei.co/npm/numeral/)
+[![NPM](https://nodei.co/npm/numbro.png?downloads=true)](https://nodei.co/npm/numbro/)
 
 # Contributing
 
@@ -36,14 +36,19 @@ Please submit all pull requests to the `develop` branch.
 
 ### Languages 
 
-When naming language files use the [ISO 639-1 language codes](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) supplemented by [ISO 3166-1](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country codes when necessary.
+Languages names follows the Microsoft culture name convention as found [here](https://msdn.microsoft.com/en-us/library/ee825488.aspx).
 
 ### Language translations will not be merged without unit tests.
 
-See [the english unit tests](https://github.com/adamwdraper/Numeral-js/blob/master/tests/languages/en-GB.js) for an example.
+See [the english unit tests](https://github.com/foretagsplatsen/numbro/blob/master/tests/languages/en-GB.js) for an example.
 
 
 # Changelog
+
+### 1.6.0
+
+Forked the project and renamed everything to `numbro`
+
 
 ### 1.5.3
 
@@ -198,19 +203,15 @@ Initial release
 
 # Acknowlegements
 
-Numeral.js, while less complex, was inspired by and heavily borrowed from [Moment.js](http://momentjs.com)
+`numbro` is forked from [Adam Draper](https://github.com/adamwdraper)'s project [Numeral.js](http://numeraljs.com/), which was in turn inspired by and heavily borrowed from [Moment.js](http://momentjs.com).
 
 
 # License
 
-Numeral.js is freely distributable under the terms of the MIT license.
+Copyright © 2015 Företagsplatsen AB
 
-Copyright (c) 2012 Adam Draper
+Distributed under the MIT license. If you want to know more, see the `LICENSE` file.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation
-files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The original license file for `Numeral.js` can be found in `LICENSE-Numeraljs`
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+`numbro` is distributed under the MIT license.
